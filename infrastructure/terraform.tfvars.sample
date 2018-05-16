@@ -1,0 +1,45 @@
+# Copyright (c) 2018 Board of Trustees University of Illinois
+
+# AWS region for this service
+region = "us-east-1"
+
+# Path to your credentials file
+credentials_file = "/path/to/home/.aws/credentials" #FIXME
+
+# Credentials profile to use
+profile_name = "default" #FIXME
+
+# VPC to use
+vpc_name = "myvpcname" #FIXME
+
+# Subnets to use
+subnet_a_name = "myfirstsubnetname"  #FIXME
+subnet_b_name = "mysecondsubnetname" #FIXME
+
+# Alexa skill ID
+lambda_alexa_skill_id = "azn1.ask.skill.FIXME" #FIXME
+
+# It is not required for the user to change the defaults below this line
+
+# Security group to use
+security_group_name = "default"
+
+# Application name to use
+app_name = "SkeletonApplication"
+
+# Name of Lambda function
+lambda_func_name = "lambda-skeleton-function"
+
+# Description of Lambda function
+lambda_func_desc = "This is a Lambda skeleton function"
+
+# Location of packaged lambda code. If changing, also change Makefile.
+lambda_func_payload = "../payload/package.zip"
+
+# Lambda function default timeout
+lambda_func_timeout = 10
+
+# Lambda function handler
+lambda_func_handler = "main.handler"
+
+
